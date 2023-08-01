@@ -1194,8 +1194,8 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0
       pnpm:
-        specifier: ^7.9.1
-        version: 7.13.4
+        specifier: ^7.33.4
+        version: 7.33.4
       typescript:
         specifier: ^4.8.2
         version: 4.8.3
@@ -26733,8 +26733,8 @@ packages:
       - typescript
     dev: true
 
-  /pnpm@7.13.4:
-    resolution: {integrity: sha512-ZaP5+PRzXI0g4KijU7zx4hi7RUJcSYBJIb90e+lyTeQyRw91+peJoFAzWa63+4fjJIz6CqY0cNkP7trZXh5l8w==}
+  /pnpm@7.33.4:
+    resolution: {integrity: sha512-xEbf/tkwHpGM/GXq5U/sDSiE6ykLPho+o71PHNRWqkVLm6dJe4G/5Pg619Ow32ovekrr7pii5qtfamujB/+1bA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
