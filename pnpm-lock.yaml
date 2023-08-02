@@ -2137,7 +2137,7 @@ packages:
       json5: 2.2.2
       lodash: 4.17.21
       resolve: 1.22.1
-      semver: 5.7.1
+      semver: 5.7.2
       source-map: 0.5.7
     transitivePeerDependencies:
       - supports-color
@@ -4945,7 +4945,7 @@ packages:
       outdent: 0.5.0
       prettier: 2.7.1
       resolve-from: 5.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     dev: true
 
   /@changesets/assemble-release-plan@5.2.2:
@@ -4956,7 +4956,7 @@ packages:
       '@changesets/get-dependents-graph': 1.3.4
       '@changesets/types': 5.2.0
       '@manypkg/get-packages': 1.1.3
-      semver: 5.7.1
+      semver: 5.7.2
     dev: true
 
   /@changesets/changelog-git@0.1.13:
@@ -4998,7 +4998,7 @@ packages:
       p-limit: 2.3.0
       preferred-pm: 3.0.3
       resolve-from: 5.0.0
-      semver: 5.7.1
+      semver: 5.7.2
       spawndamnit: 2.0.0
       term-size: 2.2.1
       tty-table: 4.1.6
@@ -5029,7 +5029,7 @@ packages:
       '@manypkg/get-packages': 1.1.3
       chalk: 2.4.2
       fs-extra: 7.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: true
 
   /@changesets/get-release-plan@3.0.15:
@@ -5373,7 +5373,7 @@ packages:
       react-router-config: 5.1.1(react-router@5.3.4)(react@18.2.0)
       react-router-dom: 5.3.4(react@18.2.0)
       rtl-detect: 1.0.4
-      semver: 7.5.0
+      semver: 7.5.1
       serve-handler: 6.1.3
       shelljs: 0.8.5
       terser-webpack-plugin: 5.3.6(webpack@5.75.0)
@@ -18028,7 +18028,7 @@ packages:
     dependencies:
       nice-try: 1.0.5
       path-key: 2.0.1
-      semver: 5.7.1
+      semver: 5.7.2
       shebang-command: 1.2.0
       which: 1.3.1
     dev: true
@@ -20460,7 +20460,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
-      semver: 7.3.8
+      semver: 7.5.1
       vue-eslint-parser: 9.1.0(eslint@8.26.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -21437,7 +21437,7 @@ packages:
       eslint: 8.28.0
       micromatch: 3.1.10
       minimatch: 3.1.2
-      semver: 5.7.1
+      semver: 5.7.2
       tapable: 1.1.3
       typescript: 4.9.5
       webpack: 4.46.0
@@ -24181,7 +24181,7 @@ packages:
       lodash.isstring: 4.0.1
       lodash.once: 4.1.1
       ms: 2.1.3
-      semver: 5.7.1
+      semver: 5.7.2
     dev: true
 
   /jsonwebtoken@9.0.0:
@@ -24191,7 +24191,7 @@ packages:
       jws: 3.2.2
       lodash: 4.17.21
       ms: 2.1.3
-      semver: 7.3.8
+      semver: 7.5.1
 
   /jsqr@1.4.0:
     resolution: {integrity: sha512-dxLob7q65Xg2DvstYkRpkYtmKm2sPJ9oFhrhmudT1dZvNFFTlroai3AWSpLey/w5vMcLBXRgOJsbXpdN9HzU/A==}
@@ -24740,7 +24740,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       pify: 4.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: true
 
   /make-dir@3.1.0:
@@ -25807,7 +25807,7 @@ packages:
     dependencies:
       hosted-git-info: 2.8.9
       resolve: 1.22.1
-      semver: 5.7.1
+      semver: 5.7.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -29195,8 +29195,8 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  /semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
 
   /semver@6.3.0:
@@ -29209,14 +29209,7 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-
-  /semver@7.5.0:
-    resolution: {integrity: sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: false
+    dev: true
 
   /semver@7.5.1:
     resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
@@ -29388,7 +29381,7 @@ packages:
       detect-libc: 2.0.1
       node-addon-api: 6.0.0
       prebuild-install: 7.1.1
-      semver: 7.3.8
+      semver: 7.5.1
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
